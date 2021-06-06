@@ -12,13 +12,6 @@ class BottomNavigation extends StatefulWidget {
 class _BottomNavigationState extends State<BottomNavigation> {
   int currentTab = 0;
 
-  final List<Widget> screen = [
-    Screen1(),
-    Screen2(),
-    Screen3(),
-    Screen4(),
-  ];
-
   Widget currentScreen = Screen1();
 
   @override
